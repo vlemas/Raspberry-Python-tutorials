@@ -1,8 +1,9 @@
+#try to make the encryption more complicated
 message = "Hello Vickie!! ;-)"
 alphabet="abcdefghijklmnopqrstuvwxyz"
 upperCaseAlphabet="ABCDEFGHIJKLMNOPQRSTUVWXYX"
 key=3
-
+#take the position of the previous character and add it to the key
 characters = list(message)
 newMessage = ""
 for character in message:

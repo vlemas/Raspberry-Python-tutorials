@@ -19,5 +19,3 @@ for character in message:
         newCharacter = character
     newMessage += newCharacter
 print(newMessage)
-
-this is all wrong!!!
